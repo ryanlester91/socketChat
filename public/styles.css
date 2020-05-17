@@ -3,6 +3,15 @@ body {
     background-image: url('cyberlook.jpg');
 }
 
+h1 {
+    font-size: 70px;
+    text-align: center;
+    text-shadow: 2px 2px cyan;
+    font-family: 'Teko', sans-serif;
+    color: darkcyan;
+    letter-spacing: 3px;
+}
+
 h2 {
     font-size: 18px;
     padding: 10px 20px;
@@ -60,7 +69,8 @@ input{
 }
 
 button {
-    background: indigo;
+    background-color: indigo;
+    background-image: linear-gradient(indigo, blue, indigo);
     color: #fff;
     font-size: 18px;
     border: 0;
